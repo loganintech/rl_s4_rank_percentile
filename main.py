@@ -11,28 +11,28 @@ with open("./data.csv") as f:
         data.append(new_row)
 
 ranks = [
-"Bronze 1",
-"Bronze 2",
-"Bronze 3",
-"Silver 1",
-"Silver 2",
-"Silver 3",
-"Gold 1",
-"Gold 2",
-"Gold 3",
-"Platinum 1",
-"Platinum 2",
-"Platinum 3",
-"Diamond 1",
-"Diamond 2",
-"Diamond 3",
-"Champion 1",
-"Champion 2",
-"Champion 3",
-"Grand Champion 1",
-"Grand Champion 2",
-"Grand Champion 3",
-"Supersonic Legend",
+    "Bronze 1",
+    "Bronze 2",
+    "Bronze 3",
+    "Silver 1",
+    "Silver 2",
+    "Silver 3",
+    "Gold 1",
+    "Gold 2",
+    "Gold 3",
+    "Platinum 1",
+    "Platinum 2",
+    "Platinum 3",
+    "Diamond 1",
+    "Diamond 2",
+    "Diamond 3",
+    "Champion 1",
+    "Champion 2",
+    "Champion 3",
+    "Grand Champion 1",
+    "Grand Champion 2",
+    "Grand Champion 3",
+    "Supersonic Legend",
 ]
 
 totals_table = []
@@ -56,8 +56,6 @@ for i, total in enumerate(reversed(totals_table)):
     print(ranks[i], end="")
     for num in total:
         print('|', end="")
-        print(round(num, 6), end="")
+        print(round(num, 6), end="%")
 
     print()
-
-
