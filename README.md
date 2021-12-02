@@ -1,4 +1,4 @@
-#Percentile Data
+# Percentile Data
 
 **This will tell you that you are in the top (x)% of players**
 
